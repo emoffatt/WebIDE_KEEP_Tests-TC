@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: WebIDE_KEEP_Tests
+  host: WebIDETests
+  disk_quota: 1024M
